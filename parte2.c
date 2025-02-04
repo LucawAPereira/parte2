@@ -18,7 +18,7 @@ int64_t led_callback(alarm_id_t id, void *user_data) {
         gpio_put(LED_GREEN, 1);
         estado = 1;
     } else if (estado == 1) {
-        gpio_put(LED_RED, 0);  // Apaga o vermelho
+        gpio_put(LED_RED, 0);  // Apaga o vermelho 
         estado = 2;
     } else if (estado == 2) {
         gpio_put(LED_YELLOW, 0);  // Apaga o amarelo
@@ -66,6 +66,5 @@ int main() {
         verificar_botao(); // Verifica o botão
         sleep_ms(100); // Pequeno delay para evitar bouncing
     }
-
     return 0;
 }
