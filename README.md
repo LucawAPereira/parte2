@@ -8,7 +8,7 @@ parte 2 da "Tarefa 2" - Temporizador de um disparo (One Shot).
 # Como executar o código
 1-Baixar ou utilizar git clone no repositório.
 
-      git clone https://github.com/LucawAPereira/Tarefa-2---Aula-S-ncrona-29-01---parte-2.git
+      git clone https://github.com/LucawAPereira/parte2.git
       
 2-Ter o VS Code instalado e configurado.
 
